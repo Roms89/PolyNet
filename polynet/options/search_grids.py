@@ -52,7 +52,7 @@ GNN_SHARED_GRID = {
     NetworkParams.BatchSize: [16, 32, 64],
     NetworkParams.ApplyWeightingGraph: [
         # ApplyWeightingToGraph.BeforeMPP,
-        ApplyWeightingToGraph.BeforePooling
+        ApplyWeightingToGraph.NoWeighting
     ],
     NetworkParams.AssymetricLossStrength: [None],
 }

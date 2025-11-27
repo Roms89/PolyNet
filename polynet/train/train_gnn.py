@@ -76,7 +76,7 @@ def train_GNN_ensemble(
                     gnn_arch=gnn_arch,
                     dataset=train_set + val_set,
                     num_classes=int(num_classes),
-                    num_samples=150,
+                    num_samples=10,
                     iteration=iteration,
                     problem_type=problem_type,
                     random_seed=random_seed + i,
@@ -408,7 +408,10 @@ def gnn_hyp_opt(
     # --- Run Ray Tune ---
     ray.init(ignore_reinit_error=True, include_dashboard=False)
 
-    hop_results_path = Path(exp_path / "gnn_hyp_opt" / f"iteration_{iteration}")
+    hop_results_path = Path(f"C:/gnn_hyp_opt/iteration_{iteration}")
+
+    def short_dirname_creator(trial):
+        return f"trial_{trial.trial_id}"
 
     results = tune.run(
         tune.with_parameters(
@@ -424,9 +427,10 @@ def gnn_hyp_opt(
         num_samples=num_samples,
         scheduler=asha_scheduler,
         progress_reporter=reporter,
-        storage_path=hop_results_path.resolve(),
+        storage_path=str(hop_results_path),
         name=gnn_arch,
-        resources_per_trial={"cpu": 0.5, "gpu": 0.5 if torch.cuda.is_available() else 0},
+        trial_dirname_creator=short_dirname_creator,
+        resources_per_trial={"cpu": 0.5, "gpu": 0 if torch.cuda.is_available() else 0},
     )
 
     best_trial = results.get_best_trial("val_loss", "min")

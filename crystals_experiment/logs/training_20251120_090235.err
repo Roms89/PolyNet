@@ -1,0 +1,90 @@
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(
+/home/uizea/trials/amiya_experiments/PolyNet/polynet/utils/plot_utils.py:54: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  sns.scatterplot(

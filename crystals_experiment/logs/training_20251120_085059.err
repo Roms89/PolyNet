@@ -1,0 +1,37 @@
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+/home/uizea/anaconda3/envs/crystals/lib/python3.11/site-packages/torch_geometric/warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+Traceback (most recent call last):
+  File "/home/uizea/trials/amiya_experiments/PolyNet/main_crystals.py", line 109, in <module>
+    main()
+  File "/home/uizea/trials/amiya_experiments/PolyNet/main_crystals.py", line 91, in main
+    json.dump(metrics_gnn, f, indent=4)
+    ^^^^
+NameError: name 'json' is not defined

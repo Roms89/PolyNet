@@ -56,8 +56,12 @@ class crystal_graph_dataset(Dataset):
             structure = Structure.from_file(raw_path)
             node_feats = self._get_node_feats(structure)
             adj, edge_feats = self._get_edge(structure)
-            file_name = raw_path.split('/')[-1]
-            file_name = file_name.split('.')[0]
+            #file_name = raw_path.split('/')[-1]
+            #file_name = file_name.split('.')[0]
+            file_name = os.path.splitext(os.path.basename(raw_path))[0]
+
+            print("Checking file:", file_name)
+            print("Matches in targets:", self.targets.loc[self.targets[0] == file_name])
 
             y = self._get_target(file_name)
 

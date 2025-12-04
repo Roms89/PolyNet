@@ -8,10 +8,10 @@ from polynet.options.enums import ProblemTypes, Results
 from polynet.utils import prepare_probs_df
 
 
-def predict_unseen_tml(models: dict, scalers: dict, dfs: dict, data_options: DataOptions):
+def predict_unseen_tml(models: dict, scalers: dict, dfs: dict, target_variable_name, problem_type):
 
     label_col_name = get_true_label_column_name(
-        target_variable_name=data_options.target_variable_name
+        target_variable_name=target_variable_name
     )
     predictions_all = None
 
@@ -23,7 +23,7 @@ def predict_unseen_tml(models: dict, scalers: dict, dfs: dict, data_options: Dat
         model_log_name = model_name.replace("_", " ")
 
         predicted_col_name = get_predicted_label_column_name(
-            target_variable_name=data_options.target_variable_name, model_name=model_log_name
+            target_variable_name=target_variable_name, model_name=model_log_name
         )
 
         df = dfs[df_name]
@@ -39,10 +39,10 @@ def predict_unseen_tml(models: dict, scalers: dict, dfs: dict, data_options: Dat
 
         preds_df = pd.DataFrame({predicted_col_name: preds})
 
-        if data_options.problem_type == ProblemTypes.Classification:
+        if problem_type == ProblemTypes.Classification:
             probs_df = prepare_probs_df(
                 probs=model.predict_proba(df),
-                target_variable_name=data_options.target_variable_name,
+                target_variable_name=target_variable_name,
                 model_name=model_log_name,
             )
             preds_df[probs_df.columns] = probs_df.to_numpy()
@@ -55,7 +55,7 @@ def predict_unseen_tml(models: dict, scalers: dict, dfs: dict, data_options: Dat
     return predictions_all
 
 
-def predict_unseen_gnn(models: dict, dataset: Dataset, data_options: DataOptions):
+def predict_unseen_gnn(models: dict, dataset: Dataset, target_variable_name, problem_type):
 
     predictions_all = None
 
@@ -64,7 +64,7 @@ def predict_unseen_gnn(models: dict, dataset: Dataset, data_options: DataOptions
         model_name = model_name.replace("_", " ")
 
         predicted_col_name = get_predicted_label_column_name(
-            target_variable_name=data_options.target_variable_name, model_name=model_name
+            target_variable_name= target_variable_name, model_name=model_name
         )
 
         loader = DataLoader(dataset)
@@ -73,10 +73,10 @@ def predict_unseen_gnn(models: dict, dataset: Dataset, data_options: DataOptions
 
         preds_df = pd.DataFrame({Results.Index.value: preds[0], predicted_col_name: preds[1]})
 
-        if data_options.problem_type == ProblemTypes.Classification:
+        if problem_type == ProblemTypes.Classification:
             probs_df = prepare_probs_df(
                 probs=preds[-1],
-                target_variable_name=data_options.target_variable_name,
+                target_variable_name=target_variable_name,
                 model_name=model_name,
             )
             preds_df[probs_df.columns] = probs_df.to_numpy()

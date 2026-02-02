@@ -23,7 +23,7 @@ def main():
 
     test_dir = Path("crystals_test")
 
-    model_dir = "crystals_experiment/results/models"
+    model_dir = "C:/Users/ezxac5/OneDrive - The University of Nottingham/Tasks/papers/Paper_3/Eduardo/PolyNet_Wright_et_al_LOOCV/Crystal_experiment/results/models"
 
     targets = pd.read_csv(test_dir / 'data/id_prop.csv', header=None)
 
@@ -40,6 +40,8 @@ def main():
     print(dataset[0])
 
     targets = targets.rename(columns={"0": "id", "1": "target"})
+
+    print(targets)
 
     test_loader = DataLoader(dataset, shuffle=False)
 
@@ -68,7 +70,7 @@ def main():
 
     print(f"{model}: ", predictions_gnn)
 
-    predictions_gnn.to_csv(results_dir / "predictions.csv")
+    predictions_gnn.to_csv(results_dir / "predictions_Wright_LOOCV.csv")
 
 if __name__ == "__main__":
     main()
